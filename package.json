@@ -1,0 +1,33 @@
+{
+  "name": "learn-upload-file-to-to-google-drive",
+  "version": "1.0.0",
+  "description": "Basic example of uploading the file to Google Drive",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heron2014/learn-upload-file-to-to-google-drive.git"
+  },
+  "keywords": [
+    "google",
+    "drive"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heron2014/learn-upload-file-to-to-google-drive/issues"
+  },
+  "homepage": "https://github.com/heron2014/learn-upload-file-to-to-google-drive#readme",
+  "dependencies": {
+    "env2": "^2.0.6",
+    "googleapis": "^2.1.7",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hapi-auth-google": "^1.0.9",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  }
+}
